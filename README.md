@@ -139,8 +139,6 @@ Plugin usage in example with 2 languages, here French and Engligh with 2 columns
 
 ```css
 /* print.css */
-
-
 @page {
   margin-top: 15mm;
   margin-bottom: 39mm;
@@ -188,7 +186,7 @@ Note that the width value here is only for our chosen format.
 }
 ```
 
-![screenshot of page 8 in which a parallel-impact is displayed](./global_assets/page8_doc.png)
+![screenshot of page 8 in which a parallel-impact is displayed](./global_assets/page8_doc.png)  
 **Result:** The figure appears in the layout and both text flows adjust around it.
 
 ## Resources
