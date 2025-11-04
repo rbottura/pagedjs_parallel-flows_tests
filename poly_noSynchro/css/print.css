@@ -23,6 +23,7 @@ section {
 
 section p {
   margin: 0;
+  color: black;
 }
 
 @page {
@@ -125,30 +126,12 @@ section p {
 section.a {
   /*parallel-flow: name,  this will trigger the parallel-flow script*/
   --parallel-flow: beta;
-
-  page: section-a;
-  /* color: blue; */
-  color: black;
   margin-left: 0;
 }
 
 section.c {
-  /* color: rgb(0, 128, 124); */
-  color: black;
-  /* width: calc(45% - 2ch); */
   margin-left: auto;
-  /* top: -2mm !important; */
   --parallel-flow: beta;
-}
-
-section.b {
-  /* --parallel-flow: alpha; */
-}
-
-section.d {
-  /* --parallel-flow: alpha; */
-  margin-left: auto;
-  top: 0 !important;
 }
 
 p {
