@@ -2,6 +2,12 @@
 
 Test suite and examples for the parallel-flows plugin for [PagedJS](https://github.com/pagedjs/pagedjs/), demonstrating multi-language parallel text layouts in paged media.
 
+notes :
+
+- *TXTdocument* contains text ressources like copy of articles we used for data.
+- *v01_b* is the original test folder from Julien Taquet, (⚠️ contains a deprecated version of the plugin).
+- *vite_template* is an attempt to make the plugin works as ES6 module (⚠️ contains a deprecated version of the plugin).
+
 ## Table of Contents
 
 - [Parallel Flows Tests - PagedJS Plugin](#parallel-flows-tests---pagedjs-plugin)
@@ -52,8 +58,8 @@ This project has been tested on the latest version of Google Chrome.
 
 The plugin supports different flow positioning strategies:
 
-- `samepage`: Places parallel flows on the same page (default in this example)
-- [Add other options if applicable]
+- `samepage`: Flows share the same physical page. (default in this example)
+- `samespread`: Flows occupy opposite sides of a spread.
 
 ### Key CSS Custom Properties
 
@@ -165,8 +171,13 @@ section.c {
 
 ```js
 // parallel-flows.js
-// to put the content on the same page
+// plugin parameters 
+this.flowLocation = "samepage" | "samespread"; 
+this.flowSpreadAddWhite = true | false;
+
+// used for this example
 this.flowLocation = "samepage";
+
 ```
 
 ### parallel-impact
