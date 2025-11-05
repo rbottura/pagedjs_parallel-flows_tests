@@ -197,8 +197,8 @@ Note that the width value here is only for our chosen format.
 
 ## Repository
 
-- **GitLab**: https://gitlab.com/esad-gv1/epe/pagedjs_multiflows
-- **GitHub**: https://github.com/rbottura/pagedjs_collab
+- **GitLab**: [https://gitlab.com/esad-gv1/epe/pagedjs_parallel-flows_tests](https://gitlab.com/esad-gv1/epe/pagedjs_parallel-flows_tests)
+- **GitHub**: [https://github.com/rbottura/pagedjs_collab](https://github.com/rbottura/pagedjs_parallel-flows_tests)
 
 ## Deployment Status
 
